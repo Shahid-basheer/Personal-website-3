@@ -44,9 +44,15 @@ CONTENTS:
 /* =========================================================
 01. General
 ============================================================ */
+.text-responsive{
+	font-size: calc(100% + 1vw + 1vh);
+	color: #fff;
+	text-transform:uppercase;
+}
 
 div, article, section, header, footer, nav, li {
 	position:relative;
+	
 }
 .group:after {
 	display:block;
@@ -284,6 +290,7 @@ h2.pagetitle {
 	margin-top: 1.05em;
 }
 .navbar .brand a {
+	
 	padding: 0;
 	color: #fff;
 	font-size: 1.75em;
