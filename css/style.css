@@ -43,7 +43,13 @@ CONTENTS:
 
 /* =========================================================
 01. General
+
 ============================================================ */
+.text-responsive{
+	font-size: calc(100% + 1vw + 1vh);
+	color: #fff;
+	text-transform:uppercase;
+}
 
 div, article, section, header, footer, nav, li {
 	position:relative;
